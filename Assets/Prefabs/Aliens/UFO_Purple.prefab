@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7751359624151727966}
   - component: {fileID: 5758926748947517337}
   - component: {fileID: 3792295700950893988}
+  - component: {fileID: 1643688723994852103}
   m_Layer: 0
   m_Name: UFO_Purple
   m_TagString: AlienShip
@@ -149,3 +150,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 8
   hitSound: {fileID: 8300000, guid: 3018662575928364bb39b0be9339fad4, type: 3}
+--- !u!114 &1643688723994852103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924751716053324508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71e3ec45e6cd2043bf000a36a1f6e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
