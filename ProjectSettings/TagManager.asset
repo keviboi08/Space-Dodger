@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnergyOrb
   - Laser
+  - Asteroid
   layers:
   - Default
   - TransparentFX
