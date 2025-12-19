@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6883887763671173162}
   - component: {fileID: 5470836402871363882}
   - component: {fileID: 2135781126923672600}
+  - component: {fileID: 6684519859752893487}
   m_Layer: 0
   m_Name: UFO_Red
   m_TagString: AlienShip
@@ -134,3 +135,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.94, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &6684519859752893487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753605326783531652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1addb0e84d7c88d418c3f1aa963df71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 4
+  hitSound: {fileID: 8300000, guid: 3018662575928364bb39b0be9339fad4, type: 3}

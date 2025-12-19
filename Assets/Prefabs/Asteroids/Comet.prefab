@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3835311116179771655}
   - component: {fileID: 7185646929742759581}
   - component: {fileID: 4893840987457934240}
+  - component: {fileID: -255437429619053565}
   m_Layer: 0
   m_Name: Comet
   m_TagString: Asteroid
@@ -134,3 +135,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3, y: 0.34}
   m_EdgeRadius: 0
+--- !u!114 &-255437429619053565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118303403092570982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1addb0e84d7c88d418c3f1aa963df71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 6
+  hitSound: {fileID: 8300000, guid: 3018662575928364bb39b0be9339fad4, type: 3}
