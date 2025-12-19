@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1587614100959833027}
   - component: {fileID: -6137253546288189737}
   - component: {fileID: -1248855091101857771}
+  - component: {fileID: 3089033230204990137}
   m_Layer: 0
   m_Name: UFO_Green
   m_TagString: AlienShip
@@ -162,3 +163,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71e3ec45e6cd2043bf000a36a1f6e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3089033230204990137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5650082078714538088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee391898c09667438b57adf2f5c3a76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserPrefab: {fileID: 2579191092427423267, guid: 5e0a04415db5fc14ab237e6109d919bf, type: 3}
+  projectileSpeed: 5
+  minTime: 2
+  maxTime: 4
