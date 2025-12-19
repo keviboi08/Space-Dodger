@@ -23,7 +23,7 @@ public class PointGiverSpawner : MonoBehaviour
             spawned++;
             if (spawned >= 10)
             {
-                // FindObjectOfType<LevelManager>().AllOrbsSpawned(); // Comment this for now (LevelManager not created yet)
+                 FindObjectOfType<LevelManager>().AllOrbsSpawned();
             }
         }
     }
