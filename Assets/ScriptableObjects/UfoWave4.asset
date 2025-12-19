@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf45da682f076734899ea1990131c408, type: 3}
+  m_Name: UfoWave4
+  m_EditorClassIdentifier: 
+  obstaclePrefab: {fileID: 924751716053324508, guid: c1464f5f5f11ad948a20ba8a105cce09, type: 3}
+  pathPrefab: {fileID: 6227288400490188174, guid: c0ca1a591c01716489d18e705130aced, type: 3}
+  timeBetweenSpawns: 1
+  numberOfObstacles: 2
+  moveSpeed: 5.5
